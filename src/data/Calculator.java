@@ -10,12 +10,20 @@ public class Calculator {
         this.number2 = number2;
     }
 
+
     public double multiplication(){
         return this.number1 * this.number2;
     }
 
-    public double division(){
+    public double division() {
         return this.number1 / this.number2;
+    }
+    public double add(){
+        return this.number1 + this.number2;
+    }
+
+    public double subtract(){
+        return this.number1 - this.number2;
     }
 
 }
