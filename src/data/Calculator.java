@@ -18,6 +18,7 @@ public class Calculator {
     public double division() {
         return this.number1 / this.number2;
     }
+
     public double add(){
         return this.number1 + this.number2;
     }
